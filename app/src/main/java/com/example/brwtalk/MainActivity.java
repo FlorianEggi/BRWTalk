@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         lv.setAdapter(lva);
         Message msg = new Message(activeIdInt,"Frodo",new Date(),"123");
         //addMessageToDb(msg);
+        //test
         lv.setAdapter(lva);
         readDataFromDb();
     }
