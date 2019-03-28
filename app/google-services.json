@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "280276175953",
+    "firebase_url": "https://brwtalk-7e34f.firebaseio.com",
+    "project_id": "brwtalk-7e34f",
+    "storage_bucket": "brwtalk-7e34f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280276175953:android:9ea30fb9b02870dd",
+        "android_client_info": {
+          "package_name": "com.example.brwtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280276175953-3j5audpujfgs7q0gglselj12aega4uil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brwtalk",
+            "certificate_hash": "f2ff9561eda48fb69d1c6b85a40ea6892dc0f0ee"
+          }
+        },
+        {
+          "client_id": "280276175953-uc24eka2jr3caegqvbg20c2e9lr4o2mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9UbjVSa6vuYiT_FWpazx7yMVDeNQpdys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280276175953-uc24eka2jr3caegqvbg20c2e9lr4o2mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
