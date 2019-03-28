@@ -3,14 +3,24 @@ package com.example.brwtalk;
 import java.util.Date;
 
 public class Message {
+    int id;
     String username;
     Date date;
     String text;
 
-    public Message(String username, Date date, String message) {
+    public Message(int id, String username, Date date, String message) {
+        this.id = id;
         this.username = username;
         this.date = date;
         this.text = message;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUsername() {
