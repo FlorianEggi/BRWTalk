@@ -25,23 +25,23 @@
         <TableRow
             android:id="@+id/tableViewAddMessage"
             android:layout_width="match_parent"
-            android:layout_height="131dp"
+            android:layout_height="189dp"
             android:layout_weight="1"
-            android:gravity="right">
+            android:gravity="center|right">
 
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="331dp"
-                android:layout_height="match_parent"
+                android:layout_height="73dp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:hint="Schreibe neue Nachricht..."
+                android:hint="Schreibe eine neue Nachricht..."
                 android:inputType="textPersonName" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/floatingActionButton"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="104dp"
+                android:layout_height="127dp"
                 android:layout_weight="1"
                 android:clickable="true"
                 app:backgroundTint="@android:color/holo_blue_bright"
