@@ -37,8 +37,10 @@ public class ListViewAdapter extends ArrayAdapter<Message> {
         DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
         Message msg = messages.get(position);
         View listItem = (convertView == null)?inflater.inflate(this.layoutId,null):convertView;
-        ((TextView) listItem.findViewById(R.id.textViewUsername)).setText(msg.getUsername() + ":");
-        ((TextView) listItem.findViewById(R.id.textViewDate)).setText(zweistelligeZeit(msg.getDate().getHours()) + ":" + zweistelligeZeit(msg.getDate().getMinutes()));
+        String s = msg.getUsername() + ":";
+        ((TextView) listItem.findViewById(R.id.textViewUsername)).setText(s);
+        String s2 = zweistelligeZeit(msg.getDate().getHours()) + ":" + zweistelligeZeit(msg.getDate().getMinutes());
+        ((TextView) listItem.findViewById(R.id.textViewDate)).setText(s2);
         ((TextView) listItem.findViewById(R.id.textViewText)).setText(msg.getText());
         return listItem;
     }

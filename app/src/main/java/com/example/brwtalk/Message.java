@@ -24,7 +24,7 @@ public class Message {
     }
 
     public String getUsername() {
-        return username;
+        return "Flo";
     }
 
     public void setUsername(String username) {
