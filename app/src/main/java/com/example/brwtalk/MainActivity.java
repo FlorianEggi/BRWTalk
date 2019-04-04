@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
             usernameFlo = editTextUserName.getText().toString();
             password = editTextPassword.getText().toString();
             //signInUser(email,password);
+            //test
         });
 
         //buttonSign = view.findViewById(R.id.button);
