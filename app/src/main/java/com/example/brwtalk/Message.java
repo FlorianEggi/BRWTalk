@@ -15,6 +15,10 @@ public class Message {
         this.text = message;
     }
 
+    public Message(){
+        //nothingtodo
+    }
+
     public int getId() {
         return id;
     }
@@ -24,7 +28,7 @@ public class Message {
     }
 
     public String getUsername() {
-        return "Flo";
+        return username;
     }
 
     public void setUsername(String username) {

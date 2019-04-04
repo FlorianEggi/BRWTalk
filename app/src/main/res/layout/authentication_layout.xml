@@ -39,20 +39,20 @@
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="136dp"
+                    android:layout_width="152dp"
                     android:layout_height="39dp"
                     android:layout_weight="1"
-                    android:text="E-Mail"
+                    android:text="Username"
                     android:textAlignment="center"
                     android:textSize="24sp" />
 
                 <EditText
-                    android:id="@+id/editTextEmail"
+                    android:id="@+id/editTextUserName"
                     android:layout_width="324dp"
                     android:layout_height="62dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:textSize="24sp" />
             </LinearLayout>
         </TableRow>
@@ -91,12 +91,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="right|top">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </TableRow>
+            android:gravity="right|top"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
